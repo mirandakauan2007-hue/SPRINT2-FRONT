@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #050816;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* HEADER */
+
+.header{
+    width: 100%;
+
+    padding: 25px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+
+    top: 0;
+
+    background: rgba(5,8,22,0.85);
+
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+
+    z-index: 1000;
+}
+
+.logo{
+    color: #00E5FF;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.back-btn{
+    text-decoration: none;
+
+    color: white;
+
+    border: 1px solid rgba(0,229,255,0.3);
+
+    padding: 12px 20px;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.back-btn:hover{
+    background: rgba(0,229,255,0.1);
+}
+
+/* HERO */
+
+.hero{
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 140px 8% 80px;
+}
+
+.hero-text{
+    max-width: 900px;
+}
+
+.tag{
+    background: rgba(0,229,255,0.12);
+
+    color: #00E5FF;
+
+    padding: 10px 22px;
+
+    border-radius: 40px;
+
+    font-size: 14px;
+}
+
+.hero-text h1{
+    font-size: 68px;
+
+    line-height: 1.1;
+
+    margin-top: 30px;
+}
+
+.hero-text p{
+    margin-top: 30px;
+
+    color: #B8C1EC;
+
+    line-height: 1.9;
+
+    font-size: 18px;
+}
+
+/* PHONES */
+
+.phones-section{
+    padding: 50px 8% 120px;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 35px;
+
+    flex-wrap: wrap;
+}
+
+.phone-card{
+    width: 340px;
+
+    background: rgba(13,19,41,0.95);
+
+    border: 1px solid rgba(124,58,237,0.25);
+
+    border-radius: 28px;
+
+    padding: 30px;
+
+    transition: 0.4s;
+}
+
+.phone-card:hover{
+    transform: translateY(-10px);
+
+    box-shadow:
+    0 0 30px rgba(0,229,255,0.15),
+    0 0 60px rgba(124,58,237,0.15);
+}
+
+.phone-card img{
+    width: 100%;
+
+    border-radius: 20px;
+
+    margin-bottom: 25px;
+}
+
+.phone-card h2{
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+.price{
+    color: #00E5FF;
+
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+.phone-card p{
+    margin-top: 20px;
+
+    color: #B8C1EC;
+
+    line-height: 1.8;
+}
+
+.features{
+    margin-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.feature{
+    background: rgba(0,229,255,0.08);
+
+    border: 1px solid rgba(0,229,255,0.15);
+
+    padding: 10px 14px;
+
+    border-radius: 12px;
+
+    font-size: 14px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width: 768px){
+
+    .hero-text h1{
+        font-size: 42px;
+    }
+
+}
