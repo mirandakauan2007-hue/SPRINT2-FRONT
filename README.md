@@ -17,6 +17,7 @@ Este projeto simula uma aplicação web real, reforçando habilidades essenciais
 
 ---
 
+https://mirandakauan2007-hue.github.io/SPRINT2-FRONT/
 ## 🎯 Objetivos
 
 - Desenvolver habilidades em **HTML5, CSS3 e JavaScript**
